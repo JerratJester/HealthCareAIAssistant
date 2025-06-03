@@ -1,0 +1,28 @@
+# ── Core server ──────────────────────────────────────────────
+fastapi==0.112.3            # Pydantic-2 compatible
+uvicorn[standard]==0.23.1
+
+# ── Validation / settings ───────────────────────────────────
+pydantic==2.7.1             # ships wheels for Python 3.12+
+
+# ── Env, templating, HTTP helpers ───────────────────────────
+python-dotenv==1.0.0
+jinja2==3.1.2
+httpx==0.24.1
+
+# ── LLM stack ───────────────────────────────────────────────
+transformers==4.36.2
+torch==2.5.1                # CPU or CUDA 12 build
+accelerate==0.24.0
+
+# ── Optional GPU attention (install later only if you need)
+# xformers==0.0.20
+
+# ── Mock FHIR client (if you later hook to a real endpoint) ─
+fhirclient==4.3.1
+
+# ── Utility (pretty logs, rich tracebacks) ──────────────────
+rich==13.6.0
+
+sentencepiece==0.1.99
+protobuf==3.20.3
