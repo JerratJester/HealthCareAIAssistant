@@ -1,18 +1,6 @@
 # SIS AI Assistant
 
-A lightweight AI‐powered chat interface for Surgical Information Systems (SIS).  
-The project consists of:
-
-1. **Backend** (FastAPI)  
-   - Hosts a `/chat` endpoint that uses a HuggingFace model (e.g. `tiiuae/falcon-rw-1b`) to generate responses  
-   - Implements basic FHIR‐style handlers for patients and appointments  
-   - CORS‐enabled for a separate frontend
-
-2. **Frontend** (Vite + React + Tailwind CSS)  
-   - A responsive chat UI that sends user questions to the FastAPI `/chat` endpoint  
-   - Displays conversation history, loading states, and preloaded SIS‐specific prompts  
-
----
+An intelligent surgical information chatbot built to streamline surgical case management, patient scheduling, and appointment handling.
 
 ## Technologies
 
@@ -35,54 +23,36 @@ The project consists of:
 - **Tailwind CSS (v3.4.17)** - Utility-first CSS framework  
 - **PostCSS & Autoprefixer** - CSS processing and vendor prefix automation  
 
-## Prerequisites
+### Environment
 
-Make sure you have the following installed:
-
-- **Python 3.12.x** (3.12.3 recommended)  
-- **Node.js 18.x or later** (with npm)  
-- A CPU or GPU environment (CPU‐only works but is slower for inference)  
-  - If you have an NVIDIA GPU, install PyTorch with CUDA support for faster inference  
+- **Node.js** ≥ 18.x  
+- **npm** ≥ 8.x  
 
 ---
 
-
-## Backend Setup
-
-### 1. Clone and Create Virtual Environment
+## Running the Backend
 
 ```bash
-git clone <your‐repo‐url> SIS-AI-Assistant
-cd SIS-AI-Assistant/backend
-
-# Create a virtual environment (Python 3.12)
-python3 -m venv venv
+cd backend
 source venv/bin/activate
-
-# Install Dependencies
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-### 2. Start The FastAPI Server
-```bash
 uvicorn app:app --reload
 ```
+
+Visit: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+
 ---
+
 ## Running the Frontend
 
-Follow these steps to install dependencies and start the Vite + React + Tailwind (v3.4.17) frontend:
+```bash
+cd chatbot-frontend
+npm install
+npm run dev
+```
 
-1. **Navigate to the `chatbot-frontend/` directory**  
-   ```bash
-   cd chatbot-frontend
+Visit: [http://localhost:5173](http://localhost:5173)
 
-2. **Install all Node.js dependencies**
-    npm install
-
-3. **Run the development server**
-    npm run dev
-    ```
-----
+---
 
 ## Usage
 
@@ -101,3 +71,27 @@ curl http://127.0.0.1:8000/appointments?date=2025-06-03
 ```
 
 ---
+
+## Example Workflow
+
+1. Open the app at [http://localhost:5173](http://localhost:5173)  
+2. Choose a preloaded question (e.g., “How do I add a patient?”)  
+3. View the AI-generated response  
+4. Ask follow-up questions directly  
+
+---
+
+## Further Customization
+
+- Expand `preload.py` (backend) and update UI for new question sets  
+- Add streaming responses to reduce perceived latency  
+- Connect to a database for persistent state (e.g., PostgreSQL, MongoDB)  
+- Deploy backend via Uvicorn/Gunicorn and proxy (e.g., NGINX)  
+- Deploy frontend via Vercel, Netlify, or GitHub Pages  
+
+---
+
+## License
+
+MIT License
+
