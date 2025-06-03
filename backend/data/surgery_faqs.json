@@ -1,0 +1,102 @@
+[
+  {
+    "id": "faq001",
+    "question": "What should I do the night before surgery?",
+    "answer": "Do not eat or drink after midnight unless instructed otherwise. Shower with antibacterial soap and remove nail polish, jewelry, and body piercings."
+  },
+  {
+    "id": "faq002",
+    "question": "Can I take my regular medications on the day of surgery?",
+    "answer": "Take only the medications your surgeon or anesthesiologist approved—usually blood-pressure pills with a sip of water. Stop blood thinners, diabetes meds, and herbal supplements unless instructed otherwise."
+  },
+  {
+    "id": "faq003",
+    "question": "When should I arrive at the hospital?",
+    "answer": "Arrive 2 hours before your scheduled start time to allow for registration, vital signs, and IV placement."
+  },
+  {
+    "id": "faq004",
+    "question": "How long will the surgery take?",
+    "answer": "The procedure itself is estimated for each patient by the surgeon. Plan on being at the facility most of the day, including prep and recovery."
+  },
+  {
+    "id": "faq005",
+    "question": "Will I need someone to drive me home?",
+    "answer": "Yes—patients receiving any anesthesia or sedation must have a responsible adult drive them home and stay with them the first 24 hours."
+  },
+  {
+    "id": "faq006",
+    "question": "What type of anesthesia will I receive?",
+    "answer": "Your anesthesiologist will decide based on your health and procedure (general, regional, or monitored sedation) and will discuss options with you before surgery."
+  },
+  {
+    "id": "faq007",
+    "question": "Can I brush my teeth the morning of surgery?",
+    "answer": "Yes, but do not swallow any water or toothpaste."
+  },
+  {
+    "id": "faq008",
+    "question": "Why must I stop eating and drinking after midnight?",
+    "answer": "An empty stomach reduces the risk of aspiration—a serious complication where stomach contents enter the lungs during anesthesia."
+  },
+  {
+    "id": "faq009",
+    "question": "What should I wear on surgery day?",
+    "answer": "Loose-fitting clothing, flat shoes, and nothing with metal fasteners if possible. Leave valuables at home."
+  },
+  {
+    "id": "faq010",
+    "question": "How long will I stay in the recovery room?",
+    "answer": "Most patients remain 60–120 minutes while nurses monitor vital signs, pain, and nausea."
+  },
+  {
+    "id": "faq011",
+    "question": "When can I eat after surgery?",
+    "answer": "Start with clear fluids when you’re fully awake; advance to light food as tolerated and as your surgeon permits."
+  },
+  {
+    "id": "faq012",
+    "question": "What pain medication will I have at home?",
+    "answer": "You’ll receive a prescription or instructions for over-the-counter pain control before discharge. Use only as directed."
+  },
+  {
+    "id": "faq013",
+    "question": "When can I shower after surgery?",
+    "answer": "Most minimally invasive procedures allow showering after 24 hours with waterproof dressing. Do not soak incisions until cleared by your surgeon."
+  },
+  {
+    "id": "faq014",
+    "question": "What signs of infection should I watch for?",
+    "answer": "Call your surgeon for fever >101 °F (38.3 °C), redness or swelling at the incision, foul drainage, or increasing pain after the first few days."
+  },
+  {
+    "id": "faq015",
+    "question": "When will I get my pathology or biopsy results?",
+    "answer": "Results are usually available in 3–7 business days. Your surgeon will call you or review them at the follow-up appointment."
+  },
+  {
+    "id": "faq016",
+    "question": "Can I drink alcohol after surgery?",
+    "answer": "Avoid alcohol while taking prescription pain medicines and for at least 24 hours after anesthesia."
+  },
+  {
+    "id": "faq017",
+    "question": "When can I resume driving?",
+    "answer": "Not until you are off narcotic pain medicine for 24 hours, can move freely without pain, and your surgeon approves—typically 3–7 days for minor procedures."
+  },
+  {
+    "id": "faq018",
+    "question": "Do I need to stop smoking before surgery?",
+    "answer": "Yes—quitting even 24 hours before lowers risk, but 4–6 weeks of abstinence significantly reduces pulmonary and wound complications."
+  },
+  {
+    "id": "faq019",
+    "question": "Will I need antibiotics after surgery?",
+    "answer": "Most patients receive a single preventive dose in the OR only. Post-op antibiotics are prescribed only if your surgeon sees signs of infection."
+  },
+  {
+    "id": "faq020",
+    "question": "When is my follow-up appointment?",
+    "answer": "Your discharge paperwork lists the date—usually 7–14 days after surgery. Call the office if you need to reschedule."
+  }
+]
